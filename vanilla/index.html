@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>2048</title>
+  </head>
+
+  <body>
+    <div id="gameover" class="gameover hidden">
+      <h1>Game Over!</h1>
+      <div class="score">
+        <h1 id="score_title">score</h1>
+        <p id="score_gameover">0</p>
+      </div>
+      <button class="tryagain">
+        <h1>TRY AGAIN</h1>
+      </button>
+    </div>
+    <header>
+      <div class="logo">2048</div>
+      <div class="score">
+        <h1>score</h1>
+        <p id="score_header">0</p>
+      </div>
+      <div class="score">
+        <h1>best</h1>
+        <p id="best_score">0</p>
+      </div>
+    </header>
+    <main>
+      <div id="table" class="table"></div>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
