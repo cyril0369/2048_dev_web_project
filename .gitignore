@@ -17,4 +17,8 @@ Thumbs.db
 # Logs
 *.log
 
+# BDD
+*.db
+
 # Autres
+.toml

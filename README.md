@@ -10,3 +10,10 @@ npm install
 npm run dev
 ```
 
+### backend 
+
+Avant de commencer, executer ces deux commandes :
+
+```bash
+fastapi dev main.py   
+```
