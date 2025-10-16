@@ -2,7 +2,7 @@
 
 ### vanilla 
 
-Avant de commencer, executer ces deux commandes :
+Executer ces commandes :
 
 ```bash
 cd vanilla
@@ -12,8 +12,16 @@ npm run dev
 
 ### backend 
 
-Avant de commencer, executer ces deux commandes :
+Executer cette commande :
 
 ```bash
 fastapi dev main.py   
+```
+
+### frontend
+
+Executer cette commande :
+
+```bash
+npm start 
 ```
