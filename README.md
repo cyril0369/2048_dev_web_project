@@ -15,6 +15,7 @@ npm run dev
 Executer cette commande :
 
 ```bash
+cd backend
 fastapi dev main.py   
 ```
 
@@ -23,5 +24,6 @@ fastapi dev main.py
 Executer cette commande :
 
 ```bash
+cd frontend
 npm start 
 ```
